@@ -57,7 +57,7 @@
     <?php
     if(isset($_POST['submit']))
     {
-        echo "Seu formulário foi enviado com sucesso! Abaixo dados enviados:<br/>";
+        echo "Dados enviados com sucesso, abaixo seguem os dados que você enviou:<br/>";
         echo "<b>Nome: ".$_POST['nome']."</b><br/>";
         echo "<b>Email: ".$_POST['email']."</b><br/>";
         echo "<b>Assunto: ".$_POST['assunto']."</b><br/>";
